@@ -1,0 +1,15 @@
+{
+  "name": "test-server",
+  "version": "1.0.0",
+  "description": "\"# node-test-server\"",
+  "main": "src/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "Harry March",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
