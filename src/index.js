@@ -11,6 +11,10 @@ app.get('/status', (req, res) => {
     res.send({ status: "ok" })
 })
 
+app.get('/time', (req, res) => {
+    res.send({ time: appUtility.date() })
+})
+
 app.get('/read', (req, res) => {
     try {
         appUtility.read_log();
